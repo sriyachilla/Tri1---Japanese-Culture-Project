@@ -1,0 +1,16 @@
+nav ul li {
+    display: inline-block;
+    font-family: Sans-serif;
+  }
+nav {
+    word-spacing: 80px;
+    text-decoration: none;
+    color: skyblue;
+  }
+a {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+      color: #9e192f;
+      text-decoration: line-through;
