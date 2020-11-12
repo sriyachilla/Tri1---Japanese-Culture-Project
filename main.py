@@ -13,23 +13,32 @@ def home():
 
 from jinja2 import Template
 
-def author1():
-    greeting = "Hello!!"
-    name = "Sriya Chilla"
-    dob = "August 29"
-    color = "Red"
-    story = "story"
-    info = {"greeting": greeting, "name": name, "dob": dob, "color": color, "story": story}
-    return info
-
-@app.route('/about')
-def jinja():
+@app.route('/social_structure')
+def social_structure():
     #function use Flask import (Jinja) to render an HTML template
-    info = author1()
-    tm = Template("my name is {{info.name}}.")
-    return render_template(tm)
+    return render_template("socialstructure.html")
+
+@app.route('/art')
+def art():
+    #function use Flask import (Jinja) to render an HTML template
+    return render_template("art.html")
+
+@app.route('/food')
+def food():
+    #function use Flask import (Jinja) to render an HTML template
+    return render_template("food.html")
+
+@app.route('/traditions')
+def traditions():
+    #function use Flask import (Jinja) to render an HTML template
+    return render_template("traditions.html")
+
+@app.route('/history')
+def history():
+    #function use Flask import (Jinja) to render an HTML template
+    return render_template("history.html")
 
 if __name__ == "__main__":
     #runs the application on the repl development server
-    app.run(debug=True, port='3000', host='0.0.0.0')
+    app.run(debug=True, port='3000', host='127.0.0.1')
     
