@@ -9,14 +9,14 @@ def author1():
 
 def author2():
     greeting = "Hello!"
-    name = "Lora Mortensen"
-    dob = "September 23"
-    job = "Teacher"
-    story = "A fellow Herbert Hoover High graduate.  However we did not go to the same school.  How is that possible?"
+    name = "Samuel Mahjouri"
+    dob = "October 20"
+    job = "yerr"
+    story = "yerr man?"
     info = {"greeting": greeting, "name": name, "dob": dob, "job": job, "story": story}
     return info
 
-def playlist():
-    return [playdata(), playdata2()]
+# def playlist():
+ #   return [playdata(), playdata2()]
 
-def author1()
+# def author1()
