@@ -1,10 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ART</title>
+    <style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
 </head>
-<body>
+<body style="font-family:Verdana;">
+
+<div style="background-color:#f1f1f1;padding:15px;">
+    <h1>ART</h1>
+    <h3>The development and rise in popularity of Japanese Cultural Art Styles --- ANIME </h3>
+</div>
+
+<div style="overflow:auto">
+    <div class="menu">
+        <div class="menuitem">Anime Landscape Art</div>
+        <img src="https://wallpapercave.com/wp/wp4443741.jpg" style="width:100%">
+    </div>
+
+    <div class="main">
+        <h2>The Walk</h2>
+        <p>The Japanese art includes a wide range of styles and means of expression, including ceramics, sculpture, painting and calligraphy on silk and paper, the ukiyo-e woodblock prints, origami and, more recently, manga along with a myriad of other types of artwork.The first examples of complex art in Japan was produced in the centuries VII and VIII in connection with Buddhism. In the ninth century, when the Japanese began to free itself from the cultural influence of China and develop indigenous forms of expression, the secular arts became increasingly important. Until the end of the fifteenth century, both religious and secular art had flourished.Japanese had formed a brand new envisioning of the buddha and applied that into their work.</p>
+        <img src="https://cdn.britannica.com/s:500x350/45/1245-004-676A6721/Kanagawa-Wave-woodblock-colour-print-series-part.jpg" style="width:100%">
+        <p>Recent developments and globalization of modern Japanese art has led to an increase in popularity of Anime
+            The history of Japanese anime goes back to the infancy of animation throughout the world. Seitaro Kitayama is one of the first to get involved, since 1917. At the time, however, animation was mostly used in the context of anti-American propaganda. After 1945, and becoming the world’s second largest producer of animation, Japanese people are heavily influenced by number one: the United States.
+        </p>
+        <img src="https://wallpaperaccess.com/full/277854.jpg" style="width:100%">
+    </div>
+
+    <div class="right">
+        <h2>Food</h2>
+        <p>Cinque Terre comprises five villages: Monterosso, Vernazza, Corniglia, Manarola, and Riomaggiore.</p>
+        <h2>Cooking</h2>
+        <p>On the northwest cost of the Italian Riviera, north of the city La Spezia.</p>
+        <h2>Traditions</h2>
+        <p>The Walk is free!</p>
+    </div>
+</div>
+
+
+<div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> ANIMEEEEEEEEE</div>
 
 </body>
 </html>
