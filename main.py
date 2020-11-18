@@ -7,12 +7,12 @@ app = Flask(__name__)
 
 #connects default URL of server to a python function
 @app.route('/')
-@app.route('/home')
+@app.route('/')
 def home():
     #function use Flask import (Jinja) to render an HTML template
     return render_template("home.html")
 
-from jinja2 import Template
+#from jinja2 import Template
 
 @app.route('/social_structure')
 def social_structure():
@@ -38,6 +38,11 @@ def traditions():
 def history():
     #function use Flask import (Jinja) to render an HTML template
     return render_template("history.html")
+
+@app.route('/testknowledgegame')
+def testknowledgegame():
+    #function use Flask import (Jinja) to render an HTML template
+    return render_template("testknowledgegame.html")
 
 if __name__ == "__main__":
     #runs the application on the repl development server
