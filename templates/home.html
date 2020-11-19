@@ -2,11 +2,14 @@
 
 <!-- Bryce: Imported timline outline from bootstrap -->
 
-<html>
+<>
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+  mark{
+    background-color: #f8968d;
+  }
   <!-- color scheme: pink:FCEEED; reddish pink:F5BAAE; brown:753A10; blue:BCD7E6 -->
   <!-- light pink: f7c9b2; tan pink: f8968d; reddish pink: b37165; blue: fdebdd; brown: b4c7cd; gray:4F4F4F -->
         body {
@@ -41,10 +44,27 @@
             background-color: #ffa392;
             color: white;
         }
+
+        table, th, td {
+          border: 1px solid black;
+          padding: 15px;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+        }
+
+        th {
+          background-color: #ffa392;
+        }
+
+        td {
+          background-color: #ffe1d3;
+        }
     </style>
 </head>
 
-<body style="background-color:#8fb4c9;">
+<body style="background-color:#8fb4c9;"/>
 
 <div class="topnav">
   <a class="active" href="home">Home</a>
@@ -63,7 +83,7 @@
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
         <center><h1 style="color:black;background-color:#f7c9b2;padding:20px">Way of the Shugoki</h1></center>
-        <p class="lead">An online Museum that you can take part of to learn about the Japanese culture!</p>
+        <h3 class="lead"><b>Welcome to our online museum on <mark>Japanese culture</mark>! Scroll down for Table of Contents!</b></h3>
       </div>
     </div>
   </div>
@@ -90,54 +110,83 @@ Linking to history/html
 
 
 <body>
-<center><img src="https://previews.123rf.com/images/millionheadz/millionheadz1508/millionheadz150800001/44148718-japan-cute-map-japanese-landmark-and-culture-.jpg" alt="Map of Japan" style="width:600px;height:500px;">
-</body></center>
+<center><img src="https://previews.123rf.com/images/millionheadz/millionheadz1508/millionheadz150800001/44148718-japan-cute-map-japanese-landmark-and-culture-.jpg" alt="Map of Japan" style="width:600px;height:500px;"></center>
+</body>
 
 
   <section class="section-1">
     <div class="move-me"></div>
   </section>
 
+<hr>
+
+<div style="margin-top:25px"></div>
+
 <!-- Tables -->
 <table>
   <thead>
   <tr>
-    <th>Table Heading</th>
-    <th>Name</th>
-    <th>Email</th>
-    <th>Age</th>
+    <th>Table of Contents</th>
+    <th>Link to Subpage</th>
   </tr>
   </thead>
   <tbody>
   <tr>
-    <td>Table Data</td>
-    <td>Sriya Chilla</td>
-    <td><a href = "sriyachilla@gmail.com" target="_blank">sriyachilla@gmail.com</a></td>
-    <td>16</td>
+    <td>Social Structure</td>
+    <td>
+      <form action="social_structure">
+      <input type="submit" value="Go to Social Structure" />
+    </form>
+    </td>
   </tr>
 
   <tr>
-    <td>Table Data</td>
-    <td>John Doe</td>
-    <td>john@gmail.com</td>
-    <td>16</td>
+    <td>Art</td>
+    <td>
+      <form action="art">
+        <input type="submit" value="Go to Art" />
+      </form>
+    </td>
   </tr>
 
   <tr>
-    <td>Table Data</td>
-    <td>Jane Doe</td>
-    <td>jane@gmail.com</td>
-    <td>16</td>
+    <td>Food</td>
+    <td>
+      <form action="food">
+        <input type="submit" value="Go to Food" />
+      </form>
+    </td>
+  </tr>
+
+  <tr>
+    <td>Traditions</td>
+    <td>
+      <form action="traditions">
+        <input type="submit" value="Go to Traditions" />
+      </form>
+    </td>
+  </tr>
+
+  <tr>
+    <td>History</td>
+    <td>
+      <form action="history">
+        <input type="submit" value="Go to History" />
+      </form>
+    </td>
+  </tr>
+
+  <tr>
+    <td>Test Your Knowledge!</td>
+    <td>
+      <form action="testknowledgegame">
+        <input type="submit" value="Go to Test Your Knowledge" />
+      </form>
+    </td>
   </tr>
   </tbody>
 </table>
 
-<div.absolute>
- <button onclick="document.location='default.asp'">HTML Tutorial</button>
-</div.absolute>
-
-
-
-
+<div style="margin-top:25px"></div>
 
 </html>
