@@ -28,18 +28,21 @@ def art():
 
 @app.route('/food')
 def food():
+    posts = [{'title': 'FOOD', 'author': 'Bryce Modugno', 'summary': 'Japanese Foods and Traditional Preparation'}]
     #function use Flask import (Jinja) to render an HTML template
-    return render_template("food.html")
+    return render_template("food.html", posts=posts)
 
 @app.route('/traditions')
 def traditions():
+    posts = [{'title': 'TRADITIONS', 'author': 'Francis Lim', 'summary': ''}]
     #function use Flask import (Jinja) to render an HTML template
-    return render_template("traditions.html")
+    return render_template("traditions.html", posts=posts)
 
 @app.route('/history')
 def history():
+    posts = [{'title': 'HISTORY', 'author': 'Quentin Chong', 'summary': ''}]
     #function use Flask import (Jinja) to render an HTML template
-    return render_template("history.html")
+    return render_template("history.html", posts=posts)
 
 @app.route('/testknowledgegame')
 def testknowledgegame():

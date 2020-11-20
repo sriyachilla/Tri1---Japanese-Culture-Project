@@ -97,8 +97,8 @@
 <div style="background-color:#f1f1f1;padding:15px;">
     {% for post in posts %}
     <h1>{{post.title}}</h1>
-    <h2>Author: {{post.author}}</h2>
-    <h3></h3>
+    <h2>{{post.summary}}</h2>
+    <h4>Author: {{post.author}}</h4>
     {% endfor %}
 </div>
 
