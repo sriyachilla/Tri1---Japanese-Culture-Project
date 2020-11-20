@@ -16,7 +16,7 @@ def home():
 
 @app.route('/social_structure')
 def social_structure():
-    posts = [{'title': 'SOCIAL STRUCTURE', 'author': 'Sriya Chilla'}]
+    posts = [{'title': 'SOCIAL STRUCTURE', 'author': 'Quentin Chong'}]
     #function use Flask import (Jinja) to render an HTML template
     return render_template("socialstructure.html", posts=posts)
 
@@ -40,7 +40,7 @@ def traditions():
 
 @app.route('/history')
 def history():
-    posts = [{'title': 'HISTORY', 'author': 'Quentin Chong', 'summary': ''}]
+    posts = [{'title': 'HISTORY', 'author': 'Quentin Chong', 'summary': 'The history of Japan from its Ancient Times'}]
     #function use Flask import (Jinja) to render an HTML template
     return render_template("history.html", posts=posts)
 
