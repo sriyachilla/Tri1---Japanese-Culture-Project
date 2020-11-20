@@ -16,13 +16,15 @@ def home():
 
 @app.route('/social_structure')
 def social_structure():
+    posts = [{'title': 'SOCIAL STRUCTURE', 'author': 'Sriya Chilla'}]
     #function use Flask import (Jinja) to render an HTML template
-    return render_template("socialstructure.html")
+    return render_template("socialstructure.html", posts=posts)
 
 @app.route('/art')
 def art():
+    posts = [{'title': 'ART', 'author': 'Sam Mahjouri', 'summary': 'The development of Japanese Art Styles --- ANIME'}]
     #function use Flask import (Jinja) to render an HTML template
-    return render_template("art.html")
+    return render_template("art.html", posts=posts)
 
 @app.route('/food')
 def food():

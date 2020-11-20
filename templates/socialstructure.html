@@ -95,8 +95,11 @@
 </div>
 
 <div style="background-color:#f1f1f1;padding:15px;">
-    <h1>SOCIAL STRUCTURE</h1>
-    <h3> </h3>
+    {% for post in posts %}
+    <h1>{{post.title}}</h1>
+    <h2>Author: {{post.author}}</h2>
+    <h3></h3>
+    {% endfor %}
 </div>
 
 <div style="overflow:auto">
