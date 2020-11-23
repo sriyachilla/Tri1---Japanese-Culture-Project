@@ -1,3 +1,4 @@
+## Dependencies for running on IntelliJ
 ### Raspberry Pi Run Instructions
    **Deployment Process**
    
@@ -9,13 +10,13 @@
    
    **Run Instructions from Terminal**
    
-   1 - ssh pi@[IP] (enter password)
+   1 - ssh pi@[IP] --> (enter password)
    
-   2 - cd Tri1---HTML-Portfolio/
+   2 - cd Tri1---Japanese-Culture-Project/
    
    3 - python3 main.py
    
-   [Link to Flask Project Portfolio](http://76.219.255.97:8080/)
+   [Link to Flask Web Portfolio](http://76.219.255.97:8080/)
 
 
 
