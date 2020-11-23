@@ -1,5 +1,21 @@
-### Run Instructions
-
+### Raspberry Pi Run Instructions
+   **Deployment Process**
+   
+   1 - Obtain git location, login to Github on Pi Browser, copy HTTPS address, Run Git Clone within Terminal, Continue in the Terminal and run Web Server on Pi Browser using Local Host
+   
+   2 - Find the IP Address of Specific Raspberry Pi, Edit main.py file of project to reflect the IP Address of Raspberry Pi
+   
+   3 - Login in to home router, Reserve an IP Address for you Raspberry Pi on your home router through allocation, Setup port forwarding to your Raspberry Pi through Service Assignment, Find public IP address of Raspberry Pi
+   
+   **Run Instructions from Terminal**
+   
+   1 - ssh pi@[IP] (enter password)
+   
+   2 - cd Tri1---HTML-Portfolio/
+   
+   3 - python3 main.py
+   
+   [Link to Flask Project Portfolio](http://76.219.255.97:8080/)
 
 
 
